@@ -19,7 +19,7 @@ export interface NetworkConfig {
   websiteUrl: string;
 }
 
-export type TokenStandard = 'ERC-721' | 'ERC-20' | 'ERC-1155';
+export type TokenStandard = 'ERC-721' | 'ERC-20' | 'ERC-1155' | 'DRC-721';
 
 export interface TrackedContract {
   id: string;
@@ -96,6 +96,19 @@ export const TRACKED_CONTRACTS: TrackedContract[] = [
     category: 'Weekly Missions',
     badgeLabel: 'Weekly Badge',
     description: 'Weekly interstellar mission and quest badge on the DAC Interstellar Mainnet.',
+    isSoulbound: false,
+  },
+  {
+    id: 'qb1-badge',
+    name: 'QBadges1',
+    symbol: 'QB1',
+    contractAddress: '0xc1aaF210a1E4114c90D00716Aed03c861F3998f2',
+    standard: 'DRC-721',
+    explorerUrl: 'https://dacscan.io/token/0xc1aaF210a1E4114c90D00716Aed03c861F3998f2',
+    image: '/assets/qb1.png',
+    category: 'Quest Badges',
+    badgeLabel: 'Quest Badge',
+    description: 'QBadges1 (QB1) achievement and mission badge collection on the DAC Interstellar Mainnet.',
     isSoulbound: false,
   },
 ];

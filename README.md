@@ -25,7 +25,7 @@
 - **100% Read-Only**: Completely non-custodial. No wallet connections, private keys, approvals, or signatures are ever requested.
 - **Community-Built & Open Source**: An independent public good created for and by the DAC community (not an official DAC foundation application).
 - **Direct Live EVM RPC**: Queries the blockchain directly through `https://rpc.dachain.tech` without centralized middleman backends.
-- **Native Currency & Badges**: Real-time on-chain balance queries for native **DACC** and key collections: **DAC Interstellar Achievement (DIA)** and **Interstellar Weekly Badge (IWB)**.
+- **Native Currency & Badges**: Real-time on-chain balance queries for native **DACC** and key collections: **DAC Interstellar Achievement (DIA)**, **Interstellar Weekly Badge (IWB)**, and **QBadges1 (QB1)**.
 - **Deep Linking**: Direct URL routing by wallet address (`/{walletAddress}`).
 - **Light & Dark Themes**: Modern interface with light mode enabled by default and a seamless dark mode switch.
 - **1-Click MetaMask Setup**: Adds DAC Interstellar Mainnet parameters automatically to your Web3 wallet.
@@ -65,6 +65,12 @@
    - **Type**: ERC-721 Weekly Badge
    - **Explorer**: [DacScan Token View](https://dacscan.io/token/0xB49644e8d8CE036663562f4Fd8ac4054f90EE497)
    - **Artwork**: `/assets/week.png`
+
+3. **QBadges1 (QB1)**
+   - **Contract Address**: `0xc1aaF210a1E4114c90D00716Aed03c861F3998f2`
+   - **Type**: DRC-721 Quest Badge
+   - **Explorer**: [DacScan Token View](https://dacscan.io/token/0xc1aaF210a1E4114c90D00716Aed03c861F3998f2)
+   - **Artwork**: `/assets/qb1.png`
 
 ---
 

@@ -181,7 +181,7 @@ export const WalletOverview: React.FC<WalletOverviewProps> = ({ data }) => {
           </div>
 
           <div className="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-[11px] text-slate-500 dark:text-slate-400">
-            <span>DIA & IWB Collections</span>
+            <span>DIA, IWB & QB1 Badges</span>
             <span className="font-semibold text-emerald-600 dark:text-emerald-400">
               {collectionsWithBalance > 0 ? 'Holder Active' : 'No badges yet'}
             </span>

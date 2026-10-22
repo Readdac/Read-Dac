@@ -249,7 +249,7 @@ export default function App() {
               </span>
             </h1>
             <p className="text-xs sm:text-sm md:text-base text-slate-600 dark:text-slate-400 leading-relaxed max-w-xl mx-auto px-2">
-              Fast, secure, read-only wallet explorer for DAC Interstellar Mainnet. Inspect native DACC balance, DIA achievements, and IWB badge collections with 100% security.
+              Fast, secure, read-only wallet explorer for DAC Interstellar Mainnet. Inspect native DACC balance, DIA achievements, IWB badges, and QBadges1 (QB1) with 100% security.
             </p>
           </div>
 
@@ -312,7 +312,7 @@ export default function App() {
                     </span>
                   </div>
                   <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1">
-                    Direct on-chain balance query for DAC Interstellar Achievement (DIA) & Interstellar Weekly Badge (IWB).
+                    Direct on-chain balance query for DIA, IWB, and QBadges1 (QB1) collections.
                   </p>
                 </div>
 
@@ -326,7 +326,7 @@ export default function App() {
               </div>
 
               {/* Collections Grid */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {walletData.tokens.map((tokenResult) => (
                   <TokenCard key={tokenResult.contract.id} tokenResult={tokenResult} />
                 ))}
